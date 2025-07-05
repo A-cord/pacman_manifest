@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remotes -->
+  <remote name="github" fetch="https://github.com/" />
+  <remote name="gitlab" fetch="https://gitlab.com/" />
+
+  <!-- Device Trees -->
+  <project name="Nothing-2A/android_device_nothing_pacman" path="device/nothing/pacman" remote="github" revision="main" />
+  <project name="Nothing-2A/android_device_nothing_pacman-kernel" path="device/nothing/pacman-kernel" remote="github" revision="main" />
+  <project name="Nothing-2A/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" revision="main" />
+
+  <!-- Kernel Trees -->
+  <project name="Nothing-2A/android_kernel_nothing_mt6886" path="kernel/nothing/mt6886" remote="github" revision="main" />
+  <project name="Nothing-2A/android_kernel_modules_nothing_mt6886" path="kernel/nothing/modules" remote="github" revision="main" />
+
+  <!-- Vendor Trees -->
+  <project name="iamlordutkarsh/vendor_nothing_pacman" path="vendor/nothing/pacman" remote="gitlab" revision="main" />
+  <project name="Nothing-2A/android_vendor_qcom_opensource_vibrator" path="vendor/qcom/opensource/vibrator" remote="github" revision="main" />
+
+  <!-- Hardware Trees -->
+  <project name="Nothing-2A/android_hardware_nothing" path="hardware/nothing" remote="github" revision="main" />
+  <project name="Nothing-2A/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="main" />
+
+  <!-- Build -->
+  <project name="Nothing-2A/android_build_soong" path="build/soong" remote="github" revision="main" />
+</manifest>
